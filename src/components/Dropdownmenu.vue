@@ -1,6 +1,6 @@
 <template>
 
-<div class="menu-item" @click="isOpen = !isOpen" tabindex="22" offset="25" >
+<div class="menu-item" @mouseenter="isOpen = !isOpen" tabindex="22" offset="25" >
  
 
 
@@ -49,19 +49,12 @@ nav .menu-item .sub-menu {
     will-change: transform;
     min-width: 9em;
     background-color: rgb(229, 226, 226);
-    top: calc(100% + 15px);
+    top: calc(100% + 6px);
     left: 50%;
     transform:  translateX(-50%);
     width: max-content;
     border-radius: 0px 0px 16px 16px;
 }
-   
-    
-    
-
-
-
-
 
 .fade-enter-active,
 .fade-leave-active{
